@@ -1,5 +1,5 @@
 <?php
-include("header.php");
+include("header.php")
 ?>
     <main>
         <div class="home-container">
@@ -8,7 +8,7 @@ include("header.php");
             <div class="home-footer-container">
                 <div class="cv-contact">
                     <ul id="main-ul">
-                    <li>Mon CV</li>
+                    <li><a href="assets/CV Dev (1).pdf" target="_blank">Mon CV</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>

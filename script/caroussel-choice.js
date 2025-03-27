@@ -14,6 +14,13 @@ const image_options = [
     "assets/test2.png",
     "assets/test3.png"
 ];
+
+const link_options = [
+    "https://example.com/projet-maquette",
+    "https://example.com/projet-puissance4",
+    "https://example.com/projet-twitter"
+];
+
 var i = 0;
 const currentOptionText1 = document.getElementById("current-option-text1");
 const currentOptionText2 = document.getElementById("current-option-text2");
@@ -24,7 +31,7 @@ const optionPrevious = document.getElementById("previous-option");
 const optionNext = document.getElementById("next-option");
 
 currentOptionText1.innerText = text1_options[i];
-currentOptionText2.innerText = text2_options[i];
+currentOptionText2.innerHTML = `<a href="${link_options[i]}" target="_blank" style="color: white; text-decoration: underline;">${text2_options[i]}</a>`;
 currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
 mainMenu.style.background = color_options[i];
 

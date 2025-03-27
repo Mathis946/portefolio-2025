@@ -25,9 +25,11 @@ include("header.php");
   </div>
   <div class="tech-container">
     <h2>Technologies utilisées :</h2>
-    <div class="tech-div">
-      <img class="logo-tech" src="assets/logo/HTML.png" alt="Logo HTML">
-      <img class="logo-tech" id="logo-css" src="assets/logo/CSS.png" alt="Logo CSS">
+    <div class="tech-divm">
+      <img class="logo-tech" id="logo-html" src="assets/logo/HTML.png" alt="Logo HTML">
+      <img class="logo-tech" id="logo-sass" src="assets/logo/sass.png" alt="Logo SASS">
+      <img class="logo-tech" id="logo-js" src="assets/logo/JS.png" alt="Logo JS">
+      <img class="logo-tech" src="assets/logo/SQL.png" alt="Logo SQL">
     </div>
   </div>
   </div>

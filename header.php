@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/project.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Monoton&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="choice.css"> 
+<link rel="stylesheet" href="styles/choice.css"> 
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
@@ -23,8 +24,8 @@
 <body>
     <header>
         <div class="head-container">
-            <div class="link-div"><h4><a href="home-page.php">Home</a></h4></div>
+            <div class="link-div"><h4><a href="index.php">Home</a></h4></div>
             <div id="title-div"><h1>Portfolio de Mathis</h1></div>
-            <div class="link-div"><h4><a href="https://www.webacademie.org">Web Academie</a></h4></div>
+            <div class="link-div"><h4><a href="https://github.com/Mathis946" target="_blank">GitHub</a></h4></div>
         </div>
     </header>

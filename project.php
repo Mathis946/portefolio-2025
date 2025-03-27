@@ -16,7 +16,7 @@ include("header.php");
         </div>
         <div id="image"></div>
         </div>
-        <script src="script/caroussel.js"></script>    
+        <script src="script/caroussel-choice.js"></script>    
     </div>
 </main> 
 
