@@ -95,6 +95,15 @@ body {
     flex-direction: column;
     justify-content: center;
     padding-right: 65px;
+    a{
+        text-decoration: none; 
+    }
+    a:visited{
+        
+            text-decoration: none; 
+            color: #870974;
+            text-shadow: -0.5px -0.5px 0 #EB5ED6, 0.5px -0.5px 0 #EB5ED6, -0.5px 0.5px 0 #EB5ED6, 0.5px 0.5px 0 #EB5ED6;        
+    }
 }
 
 .project-container{
@@ -148,7 +157,9 @@ body {
     padding-bottom: 15px;
     h1{
         animation: hover 3s ease-in-out infinite;
-        transition: all 1s;    
+        transition: all 1s;
+        color: #ffffff;
+        text-shadow: -1px -1px 0 #000000, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;       
     }
 }
 
@@ -188,22 +199,84 @@ body {
     }
     h1{
         animation: hover 3s ease-in-out infinite;
-        transition: all 1s;    
+        transition: all 1s; 
+        color: #ffffff;
+        text-shadow: -1px -1px 0 #000000, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;       
+    }
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img{
+        border-radius: 200px;
+        margin-right: 190px;
     }
 }
 
 .right-content{
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    border: solid #EB5ED6;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 60vw;
+    background-color: rgba(135, 9, 116, 0.337);
     h1{
         animation: hover 3s ease-in-out infinite;
         transition: all 1s;
-    
+        color: #ffffff;
+        text-shadow: -1px -1px 0 #000000, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;       
     }
 }
 
+.form-groupe{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    input{
+        background: white;
+        font-family: "Jersey 10", sans-serif;
+        border-radius: 20px;
+        height: 6vh;
+        width: 30vw;
+        padding-left: 10px;
+        font-size: 20px;
+        border: solid #EB5ED6 ;
+    }
+    #content{
+        height: 25vh;
+        border-radius: 20px;
+        display: flex;
+        width: 50vw;
+        padding-left: 10px;
+        background: white;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 20px;
+        border: solid #EB5ED6 ;
+    }
+}
+
+#send{
+    color: darkslategray;
+    font-size: 2.1vh;
+    height: 4vh;
+    width: 9vw;
+    border-radius: 15px;
+    font-family: "Jersey 10", sans-serif;
+    border: solid #EB5ED6;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#send:hover{
+    background-color: #f9dbf4;
+}
 
 @mixin animate($animation,$duration,$method){
     animation: $animation $duration $method;

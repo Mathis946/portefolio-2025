@@ -74,7 +74,7 @@
           align-items: center;
           justify-content: flex-start; }
       #carousel-wrapper #menu #current-option #current-option-text2 {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         width: 220px;
         height: 40px;
         display: flex;

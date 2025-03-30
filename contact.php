@@ -16,31 +16,30 @@ include("header.php");
                 </div>
                 <div class="contact-contenair">
                     <h1 id="contact-me">Mes informations :</h1>
+                    <div class="contact">
+                    <img src="assets/2d-pc.png" alt="2D PC">
                     <ul id="list-contact">
-                        <li><a href="https://www.linkedin.com/in/mathis-nnomo-1b34671b0/" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://github.com/Mathis946" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/mathis-nnomo-1b34671b0/" target="_blank">LinkedIn !</a></li>
+                        <li><a href="https://github.com/Mathis946" target="_blank">GitHub !</a></li>
                         <li>Email : mathis1.nnomo@epitech.eu</li>
                     </ul>
+                    </div>
                 </div>
             </div>
         <form action="contact.php">
         <div class="right-content">
-            <h1>M'envoyer un mail :</h1> 
+            <h1>M'envoyer un mail direct :</h1> 
             <div class="form-groupe">
-                <label for="name">Votre nom :</label>
-                <input type="text" name="name" id="name" required> 
+                <input type="text" name="name" id="name" placeholder="Votre nom..." required> 
             </div> 
             <div class="form-groupe">
-                <label for="mail">Votre E-mail :</label>
-                <input type="text" name="mail" id="mail" required> 
+                <input type="text" name="mail" id="mail" placeholder="Votre adresse mail..." required> 
             </div> 
             <div class="form-groupe">
-                <label for="object">Objet du mail :</label>
-                <input type="text" name="object" id="object" required> 
+                <input type="text" name="object" id="object" placeholder="Objet du mail..." required> 
             </div> 
             <div class="form-groupe">
-                <label for="content">Message du mail :</label>
-                <input type="text" name="content" id="content" required> 
+                <textarea name="content" id="content" placeholder="Message du mail..." required></textarea>
             </div> 
             <button type="submit" id="send" onclick="sendMail()">Envoyer !</button>
             </form>
