@@ -24,8 +24,8 @@
 <body>
     <header>
         <div class="head-container">
-            <div class="link-div"><h4><a href="index.php">Home</a></h4></div>
+            <div class="link-div"><h2><a href="index.php">Home</a></h2></div>
             <div id="title-div"><h1>Portfolio de Mathis</h1></div>
-            <div class="link-div"><h4><a href="https://github.com/Mathis946" target="_blank">GitHub</a></h4></div>
+            <div class="link-div"><h2><a href="https://github.com/Mathis946" target="_blank">GitHub</a></h2></div>
         </div>
     </header>

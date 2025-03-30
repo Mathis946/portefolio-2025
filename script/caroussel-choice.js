@@ -9,16 +9,17 @@ const text2_options = [
     "Cliquer pour voir plus !"
 ];
 const color_options = ["#870974", "#69085A", "#500645"];
+
 const image_options = [
-    "assets/test1.png",
-    "assets/test2.png",
-    "assets/test3.png"
+    "assets/projet/maquette1.png",
+    "assets/projet/puissance41.png",
+    "assets/projet/twitter1.png"
 ];
 
 const link_options = [
-    "https://example.com/projet-maquette",
-    "https://example.com/projet-puissance4",
-    "https://example.com/projet-twitter"
+    "maquette.php",
+    "puissance4.php",
+    "mytwitter.php"
 ];
 
 var i = 0;
@@ -31,7 +32,7 @@ const optionPrevious = document.getElementById("previous-option");
 const optionNext = document.getElementById("next-option");
 
 currentOptionText1.innerText = text1_options[i];
-currentOptionText2.innerHTML = `<a href="${link_options[i]}" target="_blank" style="color: white; text-decoration: underline;">${text2_options[i]}</a>`;
+currentOptionText2.innerHTML = `<a href="${link_options[i]}"style="color: white; text-decoration: underline;">${text2_options[i]}</a>`;
 currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
 mainMenu.style.background = color_options[i];
 
@@ -39,7 +40,7 @@ optionNext.onclick = function () {
     i = i + 1;
     i = i % text1_options.length;
     currentOptionText1.dataset.nextText = text1_options[i];
-
+    
     currentOptionText2.dataset.nextText = text2_options[i];
 
     mainMenu.style.background = color_options[i];
@@ -52,6 +53,7 @@ optionNext.onclick = function () {
     setTimeout(() => {
         currentOptionText1.innerText = text1_options[i];
         currentOptionText2.innerText = text2_options[i];
+        currentOptionText2.innerHTML = `<a href="${link_options[i]}"style="color: white; text-decoration: underline;">${text2_options[i]}</a>`;
         carousel.classList.remove("anim-next");
     }, 650);
 };
@@ -75,6 +77,7 @@ optionPrevious.onclick = function () {
     setTimeout(() => {
         currentOptionText1.innerText = text1_options[i];
         currentOptionText2.innerText = text2_options[i];
+        currentOptionText2.innerHTML = `<a href="${link_options[i]}"style="color: white; text-decoration: underline;">${text2_options[i]}</a>`;
         carousel.classList.remove("anim-previous");
     }, 650);
 };

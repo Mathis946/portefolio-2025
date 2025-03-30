@@ -7,17 +7,13 @@ include("header.php");
 <div class="carousel-container">
   <div class="carousel">
     <div class="item active">
-      <img src="assets/test1.png" alt="Image 1" />
- 
+      <img src="assets/projet/puissance41.png" alt="Image 1" />
     </div>
     <div class="item">
-      <img src="assets/test2.png" alt="Image 2" />
+      <img src="assets/projet/puissance42.png" alt="Image 2" />
 
     </div>
-    <div class="item">
-      <img src="assets/test3.png" alt="Image 3" />
 
-    </div>
   </div>
   <button class="btn prev">Retour</button>
   <button class="btn next">Suivant</button>
@@ -33,7 +29,7 @@ include("header.php");
   </div>
   </div>
   <div class="desc-project">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor corporis quidem ut! Ducimus placeat quaerat quo fugit tempora vero, autem delectus eum inventore, atque amet error obcaecati cumque facilis ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quisquam consequuntur quod reiciendis, itaque sed repudiandae vel est tenetur. Earum non dolorem perferendis a ducimus odit voluptates quae ipsam esse.</p>
+    <p>Dans ce projet scolaire de deux semaines, nous avons développé une version jouable du Puissance 4 en JavaScript, sans maquette préétablie. L’objectif était d’implémenter la logique du jeu, la détection des conditions de victoire et une interface dynamique en manipulant le DOM. Ce projet nous a permis de renforcer notre compréhension de la programmation événementielle, des structures de données et d’améliorer notre capacité à concevoir une interface.</p>
   </div>
   </div>
 </main>

@@ -4,6 +4,14 @@
   outline: none;
   user-select: none; }
 
+@media (max-width: 480px) {
+  #carousel-wrapper #current-option {
+    justify-content: space-around !important; }
+
+  #image {
+    transform: translate(0px, 0) !important;
+    height: 15vh !important;
+    width: 57vw !important; } }
 #carousel-wrapper {
   width: auto;
   height: auto;
@@ -13,8 +21,8 @@
   justify-content: center;
   overflow: hidden; }
   #carousel-wrapper #menu {
-    height: 380px;
-    width: 820px;
+    height: 50vh;
+    width: 65vw;
     overflow: hidden;
     font-weight: 700;
     line-height: 1;
@@ -103,7 +111,7 @@
       background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
       background-size: cover;
       position: absolute;
-      transform: translate(310px, 50px); }
+      transform: translate(370px, 50px); }
     #carousel-wrapper #menu #next-option {
       margin-left: 135px;
       width: 1.5rem;
@@ -114,10 +122,10 @@
       background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 256 256'%3E%3Cpolygon points='225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093' fill='%23333'%3E%3C/polygon%3E%3C/svg%3E");
       background-size: cover;
       position: absolute;
-      transform: translate(310px, -50px) rotate(180deg); }
+      transform: translate(370px, -50px) rotate(180deg); }
   #carousel-wrapper #image {
-    height: 228px;
-    width: 410px;
+    height: 37vh;
+    width: 32vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -13,8 +13,8 @@ include("header.php");
             </div>
             <button id="previous-option"></button>
             <button id="next-option"></button>
+            <div id="image"></div>
         </div>
-        <div id="image"></div>
         </div>
         <script src="script/caroussel-choice.js"></script>    
     </div>

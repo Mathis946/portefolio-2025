@@ -7,15 +7,15 @@ include("header.php");
 <div class="carousel-container">
   <div class="carousel">
     <div class="item active">
-      <img src="assets/test1.png" alt="Image 1" />
+      <img src="assets/projet/maquette1.png" alt="Image 1" />
  
     </div>
     <div class="item">
-      <img src="assets/test2.png" alt="Image 2" />
+      <img src="assets/projet/maquette2.png" alt="Image 2" />
 
     </div>
     <div class="item">
-      <img src="assets/test3.png" alt="Image 3" />
+      <img src="assets/projet/maquette3.png" alt="Image 3" />
 
     </div>
   </div>
@@ -32,7 +32,7 @@ include("header.php");
   </div>
   </div>
   <div class="desc-project">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor corporis quidem ut! Ducimus placeat quaerat quo fugit tempora vero, autem delectus eum inventore, atque amet error obcaecati cumque facilis ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quisquam consequuntur quod reiciendis, itaque sed repudiandae vel est tenetur. Earum non dolorem perferendis a ducimus odit voluptates quae ipsam esse.</p>
+    <p>Dans le cadre d'un projet scolaire d'une semaine, nous avons dû recréer le front d'un site web d'un centre de vacances à partir d'une maquette fournie. L'objectif était d'apprendre à respecter une charte graphique tout en maîtrisant la mise en page et le responsive design. Ce projet nous a permis de mieux comprendre l'intégration web, l'organisation du code et l'importance du respect des délais.</p>
   </div>
   </div>
 </main>

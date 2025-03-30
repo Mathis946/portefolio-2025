@@ -128,7 +128,8 @@
   color: white;
   background-color: #a9779a;
   border: solid #EB5ED6;
-  text-align: center; }
+  text-align: center;
+  font-size: 3vh; }
 
 .desc-container {
   display: flex;
