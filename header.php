@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Monoton&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="assets/logo-site.png">
 <link rel="stylesheet" href="styles/choice.css"> 
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -19,7 +20,7 @@
       });
    })();
 </script>   
-    <title>Portfolio</title>
+    <title>Mathis Nnomo</title>
 </head>
 <body>
     <header>
